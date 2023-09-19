@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity9"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/b2color"
+        android:padding="15dp"
+        android:text="Time Converter"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/pakistanTimeTextView"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/b6color"
+        android:paddingLeft="13dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="60dp"
+        android:text="Pakistan Time:" />
+    <TextView
+        android:id="@+id/belgiumTimeTextView"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/b6color"
+        android:paddingLeft="13dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_below="@id/pakistanTimeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Belgium Time:"
+         />
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/b1color"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/belgiumTimeTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Convert Time" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/b3color"
+        android:text="Back"
+        android:layout_below="@+id/convertButton"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

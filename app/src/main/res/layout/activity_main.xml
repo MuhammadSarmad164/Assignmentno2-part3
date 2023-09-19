@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/part3">
+   <RelativeLayout
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="30dp">
+
+       <TextView
+           android:layout_width="230dp"
+           android:layout_height="80dp"
+
+           android:layout_centerInParent="true"
+           android:background="@drawable/b5color"
+           android:padding="15dp"
+           android:text="Converter App"
+           android:textColor="@color/white"
+           android:textSize="30dp"
+           android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_below="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:text="Friendship"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/b2"
+            android:layout_toRightOf="@id/b1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Currency"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b3"
+
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:text="Temperature"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/b4"
+            android:layout_toRightOf="@id/b3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="BMI"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l4"
+        android:layout_below="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:text="Volume"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/b6"
+            android:layout_toRightOf="@id/b5"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Length"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l5"
+        android:layout_below="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:text="Area"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/b8"
+            android:layout_toRightOf="@id/b7"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Time"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l6"
+        android:layout_below="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="Weight"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l7"
+        android:layout_below="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="Age"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="@drawable/b4color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"/>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l8"
+        android:layout_below="@+id/l7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    />
+
+    </RelativeLayout>
+</RelativeLayout>
